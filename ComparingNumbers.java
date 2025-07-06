@@ -9,18 +9,36 @@ public class ComparingNumbers{
 		int squareOfNumber = number * number;
 		
 		if(number > 100){
-		System.out.printf("The number %d and its square %d are greater than 100", number,);
+		System.out.printf("%d is greater than 100 %n", number);
 		}
 
-		else if(number == 100 && squareOfNumber == 100){
-		System.out.printf("The number %d and its square %d are equal to 100", number, squareOfNumber);
+		if(squareOfNumber > 100){
+		System.out.printf("The sqaure of %d  which is %d, is greater than 100 %n", number, squareOfNumber); 
+		}
+		
+		if(number < 100){
+		System.out.printf("%d is less than 100 %n", number);
 		}
 
-		else {
-		System.out.printf("The number %d and its square %d are less than 100", number, squareOfNumber);
+		if(squareOfNumber < 100){
+		System.out.printf("The sqaure of %d  which is %d, is less than 100 %n", number, squareOfNumber); 
 		}
 
+		if(number == 100){
+		System.out.printf("%d is equal to 100 %n", number);
+		}
 
+		if(squareOfNumber == 100){
+		System.out.printf("The sqaure of %d  which is %d, is equal to 100 %n", number, squareOfNumber); 
+		}
+
+		if(number != 100){
+		System.out.printf("%d is not equal to 100 %n", number);
+		}
+
+		if(squareOfNumber != 100){
+		System.out.printf("The sqaure of %d  which is %d, is not equal to 100%n", number, squareOfNumber); 
+		}
 
 	}
 }
