@@ -12,7 +12,7 @@ public class DisplayingShapesWithAsterisks{
 		System.out.println("*********");
 
 
-		System.out.println("   ***");
+		System.out.println("   ***  ");
 		System.out.println(" *     *");
 		System.out.println("*       *");
 		System.out.println("*       *");
@@ -20,7 +20,17 @@ public class DisplayingShapesWithAsterisks{
 		System.out.println("*       *");
 		System.out.println("*       *");
 		System.out.println(" *     *");
-		System.out.println("   ***");
+		System.out.println("   ***   ");
+
+		System.out.println("  *  ");
+		System.out.println (" ***");
+		System.out.println("*****");
+		System.out.println("  *");
+		System.out.println("  *");
+		System.out.println("  *");
+		System.out.println("  *");
+		System.out.println("  *");
+		System.out.println("  *");
 
 
 
