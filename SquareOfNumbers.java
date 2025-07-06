@@ -14,8 +14,8 @@ public class SquareOfNumbers{
 		int squarenumber2 = number2 * number2;
 
 		int sum = squarenumber1 + squarenumber2;
-		int difference = squarenumber1 - squarenumber2;
-
+		long difference =  Math.abs(squarenumber1 - squarenumber2);
+		
 		System.out.println("The square of first number (" + number1 + ") entered by the user is: " + squarenumber1);
 
 		System.out.println("The square of second number (" + number2 + ") entered by the user is: " + squarenumber2);
